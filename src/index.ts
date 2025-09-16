@@ -1,3 +1,3 @@
 import { log } from './example.ts';
 
-log();
+log('Hello, World!');

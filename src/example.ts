@@ -1,3 +1,3 @@
-export function log() {
-  console.log('Hello, World!');
+export function log(text: string) {
+  console.log(text);
 }
