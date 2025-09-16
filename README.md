@@ -1,5 +1,6 @@
 # Native TypeScript Demo
-Run with `npm t`
+1. Run `nvm install` to install Node v22.18.
+2. Run `npm t` to execute [`src/index.ts`](./src/index.ts).
 
 ## Supporting Info
 https://nodejs.org/en/learn/typescript/run-natively
