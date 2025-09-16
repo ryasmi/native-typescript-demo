@@ -1,21 +1,14 @@
 {
+  // https://nodejs.org/api/typescript.html#type-stripping
   "compilerOptions": {
-    "module": "nodenext",
-    "target": "esnext",
-    "types": [],
-    "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
-    "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
-    "strict": true,
-    "jsx": "react-jsx",
-    "isolatedModules": true,
-    "noUncheckedSideEffectImports": true,
-    "moduleDetection": "force",
-    "skipLibCheck": true,
-    "erasableSyntaxOnly": true,
-    "allowImportingTsExtensions": true,
-    "noEmit": true
+    // Use the noEmit option if you intend to only execute *.ts files, for example a build script.
+    // You won't need this flag if you intend to distribute *.js files.
+     "noEmit": true,
+
+     "target": "esnext",
+     "module": "nodenext",
+     "rewriteRelativeImportExtensions": true,
+     "erasableSyntaxOnly": true,
+     "verbatimModuleSyntax": true
   }
 }
