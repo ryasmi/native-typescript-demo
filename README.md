@@ -1,5 +1,5 @@
 # Native TypeScript Demo
-1. Run `nvm install` to install Node v22.18.
+1. Run `nvm install` to install Node v22.18 configured in [.nvmrc](./nvmrc).
 2. Run `npm t` to execute [`src/index.ts`](./src/index.ts).
 
 ## Supporting Info
