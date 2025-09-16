@@ -1,0 +1,15 @@
+{
+  "name": "native-typescript-demo",
+  "description": "A demo project for natively using TypeScript with Node.",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.9.2"
+  }
+}
